@@ -1,0 +1,250 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.navbar{
+    overflow: hidden;
+    /* border:1px solid red; */
+    height: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    
+    
+    
+}
+.logo{
+    
+    text-align: center;
+    margin-left: 50px;
+    line-height: 10px;
+
+}
+
+.input {
+    width: 140px;
+    height: 55px;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: larger;
+    font-weight: bold;
+}
+.input:hover{
+    width: 150px;
+    height: 60px;
+    border-radius: 10px;
+    margin: 10px;
+    font-size: larger;
+    font-weight: bold;
+
+}
+.img {
+    height: 70px;
+    width: 250px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.search {
+    margin-right: 50px;
+
+}
+.banner {
+    
+    overflow: hidden;
+    height: 800px;
+    width: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    background-color: #FDFCF6;
+    margin-top: 120px;
+    
+    
+
+    
+}
+.img1 {
+    height: 700px;
+    
+
+}
+.imgbanner { 
+    overflow: hidden;
+    height: 800px;
+    width: 40%;
+    /* border: 2px solid rebeccapurple; */
+}
+.inputbanner {
+    height: 800px;
+    width: 60%;
+    /* border: 2px solid red; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+  
+}
+h1 {
+    overflow: hidden;
+    font-size: 70px;
+    margin-left: 50px
+}
+.heading{
+    height: 150px;
+    width: 90%;
+    /* border: 1px solid black; */
+    margin-top: 250px;
+}
+.sr{
+    /* background-color: red; */
+    height: 120px;
+    width: 90%;
+    border: 1px solid white;
+    margin-left: 50px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px darkgray;
+
+}
+button{
+    height: 80px;
+    width: 150px;
+    margin-left: 20px;
+    font-size: 20px;
+    background-color: #E21B70;
+    border-radius: 20px;
+    color: white;
+}
+button:hover{
+    height: 90px;
+    width: 160px;
+    margin-left: 20px;
+    font-size: 20px;
+    background-color: #E21B70;
+    border-radius: 20px;
+    color: white;
+}
+.cook{
+    height: 700px;
+    width: 100%;
+    object-fit: cover;
+}
+.text{
+    overflow: hidden;
+    background-color: whitesmoke;
+    height: 600px;
+    width: 40%;
+    font-weight: 100px;
+    margin-left: 150px;
+    position: absolute;
+    bottom: -950px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 3px 3px darkgray;
+
+}
+h3 {
+    font-size: 50px;
+    font-weight: 50px;
+}
+.a{
+    font-size: 40px;
+    font-weight: 50px;
+}
+.b{
+    margin-left: 0px;
+}
+.h1 {
+    margin-top: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+
+}
+.maincard {
+    /* height: 100% ;
+    width: 100%; */
+    overflow: hidden;
+
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    
+}
+.card { 
+    overflow: hidden;
+    height: 350px;
+   object-fit: cover;
+   border-radius: 20px;
+   overflow: hidden;
+    box-shadow: 5px 5px 5px 5px darkgrey;
+}
+.bt{
+    align-items: center;
+    position: absolute;
+    margin-top: 260px;
+    margin-left: -380px;
+}
+.bt:hover{
+    align-items: center;
+    position: absolute;
+    margin-top: 260px;
+    margin-left: -380px;
+}
+.cardcontainer {
+    overflow: hidden;
+    height: 100%;
+    width: 100%;
+    /* background-color:aqua ; */
+    
+
+}
+.footer { 
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    height: 500px;
+    width: 90%;
+    background-color: #E21B70;
+    box-shadow: 5px 5px 5px 5px darkgrey;
+}
+.textfooter {
+    margin-top: 150px;
+    margin-left: 50px;
+    /* align-items: center; */
+    height: 400px;
+    width: 100;
+    /* background-color: #d7bb18;
+     */
+}
+.imgfooter {
+    height: 500px;
+    width: 50%;
+    /* background-color: blue; */
+    object-fit: cover;
+}
+.divf {
+    
+    margin: 50px;
+    height: 150px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: aqua; */
+    font-weight: bolder;
+    color: white;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.amm {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 150px;
+    margin-left: 100px;
+    font-weight: lighter;
+}
